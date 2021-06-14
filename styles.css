@@ -1,0 +1,47 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    background-color: #0B172A;
+    color: #FFFFFF;
+}
+
+.logo{
+    width: 300px;
+    padding: 5px;
+}
+
+.self-portrait{
+    height: 206px;
+    width: auto;
+    padding: 0px 5px 0px 20px;
+}
+
+.item{
+    padding: 10px;
+}
+
+.item:hover{
+    font-size: 1.2rem;
+}
+
+.navigation-items li {
+    list-style-type: none;
+}
+
+.card-container{
+    padding: 5px;
+}
+.card{
+    background-color: #BC4123;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 15px;
+}
+h4{
+    display: flex;
+    justify-content: center;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
