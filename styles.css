@@ -11,7 +11,7 @@ body{
 }
 
 .self-portrait{
-    height: 206px;
+    height: 228px;
     width: auto;
     padding: 0px 5px 0px 20px;
 }
@@ -20,8 +20,22 @@ body{
     padding: 10px;
 }
 
+.item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .item:hover{
     font-size: 1.2rem;
+}
+
+.card a{
+    color: #ffffff;
+}
+
+.card a:hover{
+    font-size: 1.2rem;
+    text-decoration: underline;
 }
 
 .navigation-items li {
@@ -34,7 +48,7 @@ body{
 .card{
     background-color: #BC4123;
     margin: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
     transition: 0.3s;
     padding: 15px;
 }
@@ -43,5 +57,32 @@ h4{
     justify-content: center;
 }
 .card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+footer{
+    background-color: #BC4123;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+.contact-header{
+    padding: 15px 0px 0px 0px;
+}
+
+footer ul{
+    padding: 0px 0px 20px 20px;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: flex;
+}
+
+footer ul li:hover{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
 }

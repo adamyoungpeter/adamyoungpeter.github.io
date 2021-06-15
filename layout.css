@@ -7,6 +7,8 @@ body{
     padding: 10px;
     margin: 2rem auto;
     background-color: #BC4123;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+
 }
 
 .self-portrait{
@@ -32,16 +34,16 @@ p{
     flex-direction: column;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 800px){
     .navigation-items{
         flex-direction: row;
         justify-content: center;
     }
 }
 
-.items{
+.item a{
     display: flex;
-    justify-content: end;
+
 }
 
 .about-container{
@@ -49,7 +51,7 @@ p{
     justify-content: center;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 800px){
     .about-container{
         flex-direction: column;
     }
@@ -59,13 +61,23 @@ p{
     margin: 2rem auto;
 }
 .card{
-    max-width: 300px;
-    min-width: 300px;
+    max-width: 30%;
 }
 
 @media screen and (max-width: 800px){
     .card-container{
         flex-direction: column;
-        max-width: 400px;
+        min-width: 400px;
     }
+}
+
+@media screen and (max-width: 800px){
+    .card {
+        min-width: 350px;
+        margin: 2rem auto;
+    }
+}
+
+footer{
+    margin: 2rem auto;
 }
